@@ -1,0 +1,39 @@
+/* .div{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    display: none;
+    visibility: hidden; */
+    /* display: flex;
+    display: grid; */
+
+/* } */
+
+/* span{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+} */
+
+/* span{
+    background-color: red;
+    width: 200px;
+    /* height: 200px; */
+    /* display: inline-block;    
+}  */ 
+
+.container{
+    background-color: blue;
+    padding: 10px;
+    width: 100px;
+    position: fixed; 
+    margin-left: 200px;
+}
+
+.container>div{
+    margin-left: 200px;
+    display: inline-block;
+}
+ 
+

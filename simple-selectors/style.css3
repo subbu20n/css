@@ -1,0 +1,38 @@
+/* .container{
+    width: 350px;
+    height: 200px; 
+    border: 2px solid red;
+    position: relative;
+
+}
+
+img{
+    width: 100px;
+    height: 100px; 
+ 
+}  
+
+p{
+    position: absolute;
+    margin: 0 ;
+    top: 0 ;
+    background-color: black; 
+    color: white; 
+    padding: 7px; 
+    letter-spacing: 7px; 
+} */ 
+
+*{
+    margin: 0 
+}
+
+.nav{
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    background-color: red; 
+}
+.side-conatiner{
+    position: absolute; 
+    right: 0; 
+}

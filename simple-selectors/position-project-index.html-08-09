@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-container" alt="">
+         <div class="first-container">
+            BR 
+         </div> 
+         <div class="second-container">
+            <div class="item-1">item-1</div>
+            <div class="item-2">item-2</div>
+            <div class="item-3">item-3</div>
+         </div>
+    </div>
+    <div class="bg-container" alt="">
+        <img src="https://www.w3schools.com/w3images/architect.jpg" alt=""> 
+        <div class="bg-item-1">
+            BR
+        </div> 
+        <div class="bg-item-2">
+            Architects
+        </div>
+    </div>
+    <div class="image-conatiner" alt="">
+    <div class="img-item-1"><img src="https://www.w3schools.com/w3images/house5.jpg" alt=""><p>summer house</p></div>
+    <div class="img-item-2"><img src="https://www.w3schools.com/w3images/house5.jpg" alt=""><p>summer house</p></div>
+    <div class="img-item-3"><img src="https://www.w3schools.com/w3images/house5.jpg" alt=""><p>summer house</p></div>
+    <div class="img-item-4"><img src="https://www.w3schools.com/w3images/house5.jpg" alt=""><p>summer house</p></div>
+    <div class="img-item-5"><img src="https://www.w3schools.com/w3images/house5.jpg" alt=""><p>summer house</p></div>
+    <div class="img-item-6"><img src="https://www.w3schools.com/w3images/house5.jpg" alt=""><p>summer house</p></div>
+    <div class="img-item-7"><img src="https://www.w3schools.com/w3images/house5.jpg" alt=""><p>summer house</p></div>
+    <div class="img-item-8"><img src="https://www.w3schools.com/w3images/house5.jpg" alt=""><p>summer house</p></div>
+   </div>
+   <div class="about-container">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptatem nobis error in. Consequuntur maxime eum maiores labore sequi beatae, veniam aperiam magni ex. Obcaecati similique sunt fugit sed nesciunt?
+   </div>
+   <div class="card-container" >
+    <div class="card-item-1">
+        <img src="https://www.w3schools.com/w3images/team2.jpg" alt="">
+        <h3>John Doe</h3> 
+        <h5>CEO & FOUNDER</h5> 
+        <p class="para"> Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <button>Contact</button>
+    </div>
+    <div class="card-item-2">
+        <img src="https://www.w3schools.com/w3images/team2.jpg" alt="">
+        <h3>John Doe</h3> 
+        <h5>CEO & FOUNDER</h5> 
+        <p class="para"> Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <button>Contact</button>
+    </div>
+    <div class="card-item-3">
+        <img src="https://www.w3schools.com/w3images/team2.jpg" alt="">
+        <h3>John Doe</h3> 
+        <h5>CEO & FOUNDER</h5> 
+        <p class="para"> Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <button>Contact</button>
+    </div>
+    <div class="card-item-4">
+        <img src="https://www.w3schools.com/w3images/team2.jpg" alt="">
+        <h3>John Doe</h3> 
+        <h5>CEO & FOUNDER</h5> 
+        <p class="para"> Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <button>Contact</button>
+    </div> 
+   </div>
+   <h1>Lorem</h1> 
+</body>
+</html>
