@@ -1,0 +1,91 @@
+
+
+.first{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 5px;
+    transition: all 0.8 ease;
+    /* border: 2px solid yellow; */
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.second{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    margin: 5px;
+    display: inline-block;
+}
+
+.first:hover{ 
+    margin-left: 100px;
+    transform: translateX(100px);  
+}
+
+.body,html{
+    height: 100px;
+}
+
+body{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.first>img{ 
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.first>div{
+    position: absolute;
+    background-color: violet;
+    width: 100px;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    transform: all 0.8 ease;
+    transform: translateY(400px);
+}
+
+.first{
+    transform: translateY(-500px);
+}
+
+.first:hover>div{
+    transform: translateY(opx);
+}
+
+.second{
+    width: 350px;
+    height: 200px;
+    background-color: purple;
+    border: 5px solid cyan;
+    overflow: hidden; 
+}
+
+.second>img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover; 
+    transition: all 0.8 ease; 
+}
+
+.second:hover>img{
+    /* transform: scale(1.8);
+    transform: scaleX(1.5);
+    transform: scaleY(1.5);
+    transform: rotateZ(180deg);
+    transform: rotateY(360deg);
+    transform: rotate(360deg);
+    transform: skewX(180deg);
+    transform: skewY(80deg); */
+    transform: scale(1.5) rotateX(360deg) translate(200px);
+} 

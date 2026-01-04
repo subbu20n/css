@@ -1,0 +1,151 @@
+*{
+   margin: 0 ;
+   padding: 0 
+}
+
+.nav-container{
+    border: 2px solid;
+    position: relative;
+    padding: 8px;
+    /* width: 100px; */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: +1;
+}
+
+.first-container{ 
+    /* background-color: green;  */
+    display: inline-block;
+}
+
+.second-container{
+    /* background-color: rgba(255, 255, 0, 0.804); */
+    display: inline-block; 
+    position: absolute; 
+    right: 0;
+}
+
+/* .item-1{
+    display: inline-block;
+    background-color: violet;
+}
+
+.item-2{
+    display: inline-block;
+    background-color: violet;
+}
+
+.item-3{
+    display: inline-block;
+    background-color: violet;
+} */
+
+.item-1,.item-2,.item-3{
+    display: inline-block;
+    /* background-color: violet; */
+    /* padding: 5px; */
+    margin-right: 5px;
+}
+
+.bg-container{
+    width: 100px;
+    height: 600px; 
+    position: relative;
+    border: 2px solid;
+}
+
+.img{
+    width: 100px;
+    height: 100px; 
+    object-fit: cover;
+}
+
+.bg-item-1{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+    padding: 5px; 
+}
+
+.bg-item-2{
+    position: absolute;
+    top: 300px;
+    left: 120px;
+    font-size: xx-large;
+    letter-spacing: 5px;
+    color: white;
+    padding: 5px; 
+}
+
+.image-container{
+    width: 100px;
+    /* border: 2px solid; 
+    height: 600px; */
+    position: relative;
+    margin-left: 40px;
+}
+.img-item-1,.img-item-2,.img-item-3,.img-item-4,.img-item-5,.img-item-6,.img-item-7,.img-item-8{
+    width: 300px;
+    height: 180px;
+    border: 2px solid; 
+    display: inline-block;
+    margin: 10px;
+    position:relative;
+    border: apx solid;
+}
+
+p{
+    position: absolute;
+    top: 0;
+    background-color: balck;
+    color: white;
+}
+
+.about-container{
+    width: 100px;
+    margin: 40px; 
+    padding: 20px;
+    font-size: large;
+    letter-spacing: 2px;
+}
+
+.card-container{
+    width: 360px;
+    margin: 30px; 
+}
+h3,h5{
+    margin: 30px,0px;
+    display: inline-block;
+    color: goldenrod;
+}
+
+.para{
+    position: relative;
+    background-color: white;
+    color: black; 
+    margin: 10px,0px; 
+}
+
+.card-item-1{
+    width: 300px;
+    margin: 30px;
+    display: inline-block;
+}
+
+button{
+   width: 100px;
+   padding: 8px;
+   border: 0px, solid;
+}
+
+h1{
+    text-align: center;
+    background-color: red;
+    color: black;
+    position: sticky ;
+    top: 0x; 
+} 

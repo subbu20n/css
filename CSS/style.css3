@@ -1,0 +1,49 @@
+/* .container{
+    padding: 10px;
+    border: 10px solid;
+    display: flex;
+    gap: 10px; 
+    height: 500px;
+    width: 300px;
+    justify-content: space-evenly;
+    align-items: start; 
+    flex-direction: column-reverse;
+
+} 
+.item-1{
+    background-color: blue;
+}
+.item-2{ 
+    background-color: orange;  
+}                                        
+.item-3{
+    background-color: pink;
+}
+.item-4{
+    background-color: green;
+}
+.item-5{
+    background-color: red;
+}  */  
+
+.nav-container{
+    background-color: purple; 
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bi{
+    font-size: xx-large;
+    cursor: pointer;
+    color: black;
+}
+.bi:hover{
+    color: red;
+    transition: 0.85 ease;
+}
+
+
+
+
+

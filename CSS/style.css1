@@ -1,0 +1,14 @@
+p{
+    text-align: center;
+    text-transform: justify;
+    
+}
+div{
+    width: 300px;
+    height: 300px;
+}
+p{
+    text-align: center;
+    border: 2px solid;
+    text-shadow: 1
+}
