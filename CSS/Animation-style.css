@@ -4,7 +4,7 @@ body{
     animation-duration: 4s;
     animation-iteration-count: 3;
 }
-
+/* 
 .animate{
     width: 200px;
     height: 200px;
@@ -39,7 +39,7 @@ body{
         background-color: purple;
         transform: translateY(500px);
     } 
-}
+} */
 
 .per{
     width: 300px;
